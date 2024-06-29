@@ -5,7 +5,8 @@ using namespace std;
 
 //should be the fastest and most efficient, as it has no need to call upon sqrt.
 void DisplaySquares(unsigned int n) {
-    for (int i = 0; i < 10; ++i) {
+    int sqrt{ 10 };
+    for (int i = 0; i < sqrt; ++i) {
         cout << i << " * " << i << " = " << i * i << endl;
     }
 }
@@ -26,7 +27,6 @@ void DisplaySquaresUpTo(unsigned int n)
     cout << "Here are some squares <100 : " << endl;
     for (i = 0; i <= limit && i < n; i++)
     {
-        
         cout << i << " * " << i << " = " << i * i << endl;
     }
 
